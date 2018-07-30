@@ -1,0 +1,18 @@
+{
+  "name": "aberskys/openweathermap-bundle",
+  "description": "This bundle provides a way to access OpenWeatherMap API data",
+  "keywords": ["weather","openweathermap","service","client"],
+  "type": "symfony-bundle",
+  "license": "MIT",
+  "require": {
+    "php": ">=7.2",
+    "symfony/config": "^3.3|^4.0",
+    "symfony/dependency-injection": "^3.3|^4.0",
+    "symfony/http-kernel": "^3.3|^4.0",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "require-dev": {
+    "symfony/yaml": "^3.3|^4.0"
+  },
+  "minimum-stability": "dev"
+}
