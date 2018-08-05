@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        public: false
+        autoconfigure: true
+        autowire: true
+
+    OpenWeatherMapBundle\Factory\CurrentWeatherModelFactory: ~
