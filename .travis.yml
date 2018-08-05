@@ -1,0 +1,21 @@
+language: php
+
+sudo: false
+
+dist: trusty
+
+php:
+  - 7.2
+
+env:
+  - SYMFONY_VERSION=4.0.*@dev
+  - SYMFONY_VERSION=4.1.*@dev
+
+addons:
+  apt:
+    sources:
+    - sourceline: 'ppa:ondrej/php'
+
+install: composer update $COMPOSER_FLAGS
+
+#script: ./vendor/bin/phpunit -c . -v
