@@ -18,4 +18,4 @@ addons:
 
 install: composer update $COMPOSER_FLAGS
 
-script: ./vendor/bin/phpunit -c . -v
+#script: ./vendor/bin/phpunit -c . -v
