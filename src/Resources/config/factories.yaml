@@ -4,4 +4,4 @@ services:
         autoconfigure: true
         autowire: true
 
-    OpenWeatherMapBundle\Factory\CurrentWeatherModelFactory: ~
+    OpenWeatherMapClient\Factory\CurrentWeatherModelFactory: ~
