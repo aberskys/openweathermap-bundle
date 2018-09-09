@@ -1,5 +1,5 @@
 {
-  "name": "aberskys/openweathermap-bundle",
+  "name": "aberskys/openweathermap-client",
   "description": "This bundle provides a way to access OpenWeatherMap API data",
   "keywords": ["weather","openweathermap","service","client"],
   "type": "symfony-bundle",
