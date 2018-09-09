@@ -1,9 +1,9 @@
 <?php
 
-namespace OpenWeatherMapBundle\Factory;
+namespace OpenWeatherMap\Factory;
 
-use OpenWeatherMapBundle\Exceptions\InvalidArgumentException;
-use OpenWeatherMapBundle\Model\CurrentWeatherModel;
+use OpenWeatherMap\Exceptions\InvalidArgumentException;
+use OpenWeatherMap\Model\CurrentWeatherModel;
 
 class CurrentWeatherModelFactory
 {

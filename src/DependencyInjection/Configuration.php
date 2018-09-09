@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenWeatherMapClientBundle\DependencyInjection;
+namespace OpenWeatherMap\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

@@ -1,6 +1,6 @@
 <?php
 
-namespace OpenWeatherMapBundle\Exceptions;
+namespace OpenWeatherMap\Exceptions;
 
 class ApiResponseException extends \Exception
 {
