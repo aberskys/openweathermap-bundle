@@ -1,4 +1,4 @@
-# openweathermap-bundle
+# openweathermap-client
 
 Bundle for OpenWeatherMap API client
 
@@ -9,11 +9,11 @@ Bundle for OpenWeatherMap API client
  
 ## Quick start
 
-1. `composer-require aberskys/openweathermap-bundle`
+1. `composer-require aberskys/openweathermap-client`
 2. Register bundle to `config/bundles.php`
 3. Add a configuration to `app/config/config.yml`
     ```yaml
-    openweathermap_client:
+    open_weather_map_client:
         api_url: "http://foo.bar.com/"
     ```
 4. Now just create a model through factory by the type of data you want,
