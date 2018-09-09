@@ -1,10 +1,10 @@
 <?php
 
-namespace OpenWeatherMapBundle\Client;
+namespace OpenWeatherMapClient\Client;
 
 use GuzzleHttp\ClientInterface;
-use OpenWeatherMapBundle\Exceptions\NonEncodableValueException;
-use OpenWeatherMapBundle\Model\CurrentWeatherModel;
+use OpenWeatherMapClient\Exceptions\NonEncodableValueException;
+use OpenWeatherMapClient\Model\CurrentWeatherModel;
 use Psr\Http\Message\ResponseInterface;
 use Symfony\Component\HttpFoundation\Request;
 

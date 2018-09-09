@@ -1,8 +1,8 @@
 <?php
 
-namespace OpenWeatherMapBundle\Model;
+namespace OpenWeatherMapClient\Model;
 
-use OpenWeatherMapBundle\Exceptions\InvalidCurrentWeatherModelException;
+use OpenWeatherMapClient\Exceptions\InvalidCurrentWeatherModelException;
 
 class CurrentWeatherModel
 {
