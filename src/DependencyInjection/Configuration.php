@@ -10,7 +10,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder(): TreeBuilder
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode    = $treeBuilder->root('openweathermap_client');
+        $rootNode    = $treeBuilder->root('open_weather_map');
 
         $rootNode
             ->children()

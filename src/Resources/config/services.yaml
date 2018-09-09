@@ -1,0 +1,14 @@
+imports:
+    - { resource: "factories.yaml" }
+services:
+    _defaults:
+        public: false
+        autoconfigure: true
+        autowire: true
+
+    openweathermap.http_client:
+        class: GuzzleHttp\Client
+
+    OpenWeatherMapBundle\Client\ApiClient:
+        arguments:
+            $httpClient: '@openweathermap.http_client'
